@@ -1,0 +1,32 @@
+1. Write a program to search letter ‘a’ and delete it in a string
+3. Write a program to swap two numbers without using temporary variables using bitwise 
+
+4. Write a program to add only even numbers in an array of integers
+5. Write a program to delete all negative numbers in an array of integers
+6. Write a program to find the sum of all negative numbers in an array
+7. Write a program to find whether the array of integers contain a duplicate number
+8. Write a program to insert a number at a given location in an array
+9. Write a program to delete a number from a given location in an array
+10. Write a program to search letter ‘a’ and replace it with letter ‘k’ in a string
+11. Write a program to initialize the members of the structure by using a pointer the structure
+12. Write a program to enter n numbers in an array. Redisplay the array with elements being 
+sorted in ascending order
+13. Write a C program to convert the given integer into a base 16 number representation.
+14. Write a C program to convert a string of hexadecimal digits (including an optional 0x or 
+0X) into its equivalent integer value. The allowable digits are 0 through 9, a through f, and 
+A through F.
+lowercases in a given input.
+
+20. Write a C program to reverse a given string in place using recursion
+
+15. Write a C program to convert all occurrences of the characters in uppercases to 
+
+2. Write a program to remove all characters which are not alphabets in a string
+
+20. Write a C program to reverse a given string in place using recursion
+
+
+17. Write a C program to count the occurrences of each digit, white space, and all other 
+characters, using switch construct.
+18. Write a C program to reverse a given string in place(without using temporary strin19. Write a C code to expand shorthand notations like 0-9 in the input into the equivalent 
+complete list 0123456789.

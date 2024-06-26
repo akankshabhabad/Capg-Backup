@@ -1,0 +1,42 @@
+1. Write a function:
+char *strcopy(char *dest, const char *src);
+that copies the string pointed to by src, including the terminating null byte ('\0'), to the buffer 
+pointed to by dest and returns a pointer to the destination string dest.
+2. Write a function:
+char *strncopy(char *dest, const char *src, int n);
+that copies at most n bytes of src into dest. If there is no null byte among the first n bytes of 
+src, the string placed in dest will not be null terminated. If the length of src is less than n,
+strncopy() writes additional null bytes to dest to ensure that a total of n bytes are written. The 
+function returns a pointer to the destination string dest.
+3. Write a function:
+int strindex(char *str, char c);
+that returns the index of the first occurrence of character 'c' in the given string str.
+For example, if str = "Global Edge", c = 'l'
+The function returns index 1 as the output.
+4. Write a function:
+char *strappend(char *dest, const char *src);
+that appends the src string to the dest string, overwriting the terminating null byte ('\0') at 
+the end of dest, and then adds a terminating null byte. The function returns a pointer to the 
+resulting string dest.
+5. Write a function:
+char *strnappend(char *dest, const char *src, int n );
+that appends at most n characters from src to the dest. The src does not need to be null 
+terminated if it contains n or more bytes. The resulting string in dest is always null terminated 
+and function returns a pointer to the resulting string dest.
+6. Write a function:
+int strcomp(const char *s1, const char *s2);
+to compare two strings s1 and s2 and returns:
+a. 0 if s1 is equal to s2
+b. 1 if s1 is greater than s2
+c. -1 if s1 is less than s2
+7. Write a function:
+int strcompcase(const char *s1, const char *s2);
+to compare two strings s1 and s2 ignoring the cases and returns:
+a. 0 if s1 is equal to s2
+b. 1 if s1 is greater than s2
+c. -1 if s1 is less than s2
+8. Write a function:
+int strspan(const char *s1, const char *s2 );
+that calculates the length (in bytes) of the initial segment of s1 which consists entirely of bytes 
+in s2. The function returns the count.
+For example, if s1 = "globaledge", s2 = "learning" then
